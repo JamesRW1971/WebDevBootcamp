@@ -1,5 +1,0 @@
-I am cool
-
-Another trial
-unstage
-d
