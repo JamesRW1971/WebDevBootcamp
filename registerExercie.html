@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+		<label for="FirstName">First Name</label>
+		<input type="text" name="firstName" id="FirstName" required>
+		<label for="LastName">Last Name</label>
+		<input type="text" name="lastName" id="LastName" required>
+<br>
+		<label for="male">Male:</label>
+		<input name="genderchoice" id="male" type="radio" value="MALE">
+		<label for="female">Female:</label>
+		<input name="genderchoice" id="female" type="radio" value="FEMALE">
+		<label for="other">Other:</label>
+		<input name="genderchoice" id="other" type="radio" value="OTHER">
+<br>
+
+		<label for="email">Email:</label>
+		<input id="email" type="email" name="email">
+		<label for="pw">Password:</label>
+      <input type="password" name="password" id="password" pattern=".{5,10}" placeholder="your password" required title="5 to 10 characters">
+<br>
+
+		<label for="bday">Birthday:</label>
+		<select id="bday" name="dbMonth">
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option></option>
+		</select>
+
+		<select id="bday" name="dbDay">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option></option>
+		</select>
+
+		<select id="bday" name="dbYear">
+			<option>1970</option>
+			<option>1971</option>
+			<option>1972</option></option>
+		</select>
+
+
+<br>
+		<button>Submit</button>
+
+</form>
+</body>
+</html>
