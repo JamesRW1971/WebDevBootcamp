@@ -1,1 +1,45 @@
-/* Element */
+ Element */
+li {
+
+}
+/*class*/
+.hello {
+
+}
+
+/*id*/
+#name{
+
+}
+
+/*30 selectors you must memoorize*/
+
+/*Star everything*/ 
+* {
+
+}
+/*Descendant selector*/
+
+li a {
+
+}
+li .hello  {
+
+}
+/*Adjacent selector*/
+h4 + ul {
+
+}
+
+/*Attribute selector*/
+a[href="http://www.google.com"] {
+
+}
+input[type="checkbox"]{
+
+}
+/*nth selector
+
+li:nth-of-type(3) {
+	
+}

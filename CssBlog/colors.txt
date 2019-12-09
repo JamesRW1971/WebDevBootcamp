@@ -1,0 +1,10 @@
+border color: #bdc3c7
+date color : #3498db
+h2 color #32c3e50
+
+font: source sans pro
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+font-family: 'Source Sans Pro', sans-serif;
+
+hr element style -- seperates blog -- look it up
